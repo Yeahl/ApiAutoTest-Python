@@ -27,17 +27,6 @@
 #     # pytest.main(['-s', './common/test_class.py', '--html=report/{}_report.html'.format(now)])
 
 
-
-
-class a(object):
-    def geta(self,b):
-        a = [1, 2, 3]
-        if a[b] > 1:
-            print(a[b])
-        else:
-            print(b)
-
-
 if __name__ == '__main__':
     a().geta(5)
 
