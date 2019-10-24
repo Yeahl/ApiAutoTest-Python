@@ -1,0 +1,5 @@
+2019-06-19 14:55:32,915 - F:/jiekou/result/log.py[line:48] - DEBUG: debug
+2019-06-19 14:55:32,915 - F:/jiekou/result/log.py[line:49] - INFO: info
+2019-06-19 14:55:32,915 - F:/jiekou/result/log.py[line:50] - WARNING: 警告
+2019-06-19 14:55:32,916 - F:/jiekou/result/log.py[line:51] - ERROR: 报错
+2019-06-19 14:55:32,916 - F:/jiekou/result/log.py[line:52] - CRITICAL: 严重

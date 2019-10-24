@@ -1,0 +1,78 @@
+2019-10-23 16:32:54,072 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:64] - INFO: 用例编号====>1
+2019-10-23 16:32:54,072 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:65] - INFO: 用例标题====>正确账号密码登录
+2019-10-23 16:32:54,073 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:66] - INFO: 请求方式====>post
+2019-10-23 16:32:54,073 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:67] - INFO: 请求地址====>http://222.198.115.85:8090/userAuth
+2019-10-23 16:32:54,076 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:68] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2019-10-23 16:32:54,076 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:69] - INFO: 请求参数====>{
+    "userName": "20190901",
+    "userPwd": "123456"
+}
+2019-10-23 16:32:54,076 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:70] - INFO: 接口响应状态码====>200
+2019-10-23 16:32:54,076 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:71] - INFO: 接口响应体为====>None
+2019-10-23 16:32:54,108 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:64] - INFO: 用例编号====>2
+2019-10-23 16:32:54,108 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:64] - INFO: 用例编号====>2
+2019-10-23 16:32:54,108 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:65] - INFO: 用例标题====>正确账号错误密码登录
+2019-10-23 16:32:54,108 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:65] - INFO: 用例标题====>正确账号错误密码登录
+2019-10-23 16:32:54,108 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:66] - INFO: 请求方式====>post
+2019-10-23 16:32:54,108 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:66] - INFO: 请求方式====>post
+2019-10-23 16:32:54,108 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:67] - INFO: 请求地址====>http://222.198.115.85:8090/userAuth
+2019-10-23 16:32:54,108 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:67] - INFO: 请求地址====>http://222.198.115.85:8090/userAuth
+2019-10-23 16:32:54,108 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:68] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2019-10-23 16:32:54,108 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:68] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2019-10-23 16:32:54,109 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:69] - INFO: 请求参数====>{
+    "userName": "20190901",
+    "userPwd": "123456789"
+}
+2019-10-23 16:32:54,109 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:69] - INFO: 请求参数====>{
+    "userName": "20190901",
+    "userPwd": "123456789"
+}
+2019-10-23 16:32:54,109 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:70] - INFO: 接口响应状态码====>200
+2019-10-23 16:32:54,109 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:70] - INFO: 接口响应状态码====>200
+2019-10-23 16:32:54,109 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:71] - INFO: 接口响应体为====>None
+2019-10-23 16:32:54,109 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:71] - INFO: 接口响应体为====>None
+2019-10-23 16:38:01,284 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:65] - INFO: 用例编号====>1
+2019-10-23 16:38:01,284 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:66] - INFO: 用例标题====>正确账号密码登录
+2019-10-23 16:38:01,284 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:67] - INFO: 请求方式====>post
+2019-10-23 16:38:01,284 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:68] - INFO: 请求地址====>http://222.198.115.85:8090/userAuth
+2019-10-23 16:38:01,284 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:69] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2019-10-23 16:38:01,285 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:70] - INFO: 请求参数====>{
+    "userName": "20190901",
+    "userPwd": "123456"
+}
+2019-10-23 16:38:01,285 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:71] - INFO: 接口响应状态码====>200
+2019-10-23 16:38:01,285 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:72] - INFO: 接口响应体为====>None
+2019-10-23 16:38:01,324 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:65] - INFO: 用例编号====>2
+2019-10-23 16:38:01,324 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:65] - INFO: 用例编号====>2
+2019-10-23 16:38:01,324 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:66] - INFO: 用例标题====>正确账号错误密码登录
+2019-10-23 16:38:01,324 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:66] - INFO: 用例标题====>正确账号错误密码登录
+2019-10-23 16:38:01,324 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:67] - INFO: 请求方式====>post
+2019-10-23 16:38:01,324 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:67] - INFO: 请求方式====>post
+2019-10-23 16:38:01,324 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:68] - INFO: 请求地址====>http://222.198.115.85:8090/userAuth
+2019-10-23 16:38:01,324 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:68] - INFO: 请求地址====>http://222.198.115.85:8090/userAuth
+2019-10-23 16:38:01,324 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:69] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2019-10-23 16:38:01,324 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:69] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2019-10-23 16:38:01,324 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:70] - INFO: 请求参数====>{
+    "userName": "20190901",
+    "userPwd": "123456789"
+}
+2019-10-23 16:38:01,324 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:70] - INFO: 请求参数====>{
+    "userName": "20190901",
+    "userPwd": "123456789"
+}
+2019-10-23 16:38:01,324 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:71] - INFO: 接口响应状态码====>200
+2019-10-23 16:38:01,324 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:71] - INFO: 接口响应状态码====>200
+2019-10-23 16:38:01,325 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:72] - INFO: 接口响应体为====>None
+2019-10-23 16:38:01,325 - C:\Users\Administrator\Desktop\jiekou(2)\jiekou\common\test_class.py[line:72] - INFO: 接口响应体为====>None
