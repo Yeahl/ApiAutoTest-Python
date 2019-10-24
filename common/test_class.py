@@ -9,6 +9,9 @@
 """
 
 import requests
+from result.log import Logger
+import time
+from json import dumps
 
 class TestClass(object):
     def __init__(self,url=None,data=None,headers=None):
@@ -36,21 +39,43 @@ class TestClass(object):
 
     def run_post(self,url,data,headers):
         #json=data 将data转换成json格式
+        # ce = requests.options(url=url)
         re = requests.post(url=url, json=data, headers=headers,verify=False)
-        print(re.response)
+        # return re.json()
+        print(re.json())
         # 打印状态码
-        print(re.status_code)
-        print(re.text)
+        # print(re.status_code)
+        # print(re.text)
 
-    def test_all(self,mothod,url,data,headers):
+    def test_all(self,method, url, data, headers):
         """
         判断执行方法
 
         """
-        if mothod == "get":
+        if method == "get":
             self.run_get(url,data,headers)
         else:
             self.run_post(url,data,headers)
 
+    def run_log(self,case_number=None,case_name=None,method=None,url=None, data=None,headers=None, code=None,asster=None,rpe=None):
+
+        now = time.strftime("%Y-%m-%d")
+
+        log = Logger('{}_ALL.log'.format(now), level='info')
+        log.logger.info("用例编号====>{}".format(case_number))
+        log.logger.info("用例标题====>{}".format(case_name))
+        log.logger.info("请求方式====>{}".format(method))
+        log.logger.info("请求地址====>{}".format(url))
+        log.logger.info("请求头====>{}".format(dumps(headers,indent=4)))
+        log.logger.info("请求参数====>{}".format(dumps(data,indent=4)))
+        log.logger.info("接口响应状态码====>{}".format(code))
+        log.logger.info("接口响应体为====>{}".format(rpe))
 
 
+
+if __name__ == '__main__':
+    method1 = "post"
+    url1 = "http://222.198.115.85:8090/userAuth"
+    data1 = ""
+    headers1 = {"Content-Type":"application/json"}
+    TestClass.test_all(method1,url1,data1,headers1)
